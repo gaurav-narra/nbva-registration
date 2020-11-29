@@ -1,0 +1,9 @@
+{
+  "nbva": {
+    "url": "<nbva url>",
+    "noEventText": "No events open for registration, check back soon!"
+  },
+  "ifttt": {
+    "url": "<ifttt url>"
+  }
+}

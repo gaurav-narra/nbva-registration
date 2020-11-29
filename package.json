@@ -1,0 +1,24 @@
+{
+  "name": "nbva-registration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'test/**/*.js'",
+    "test:watch": "mocha -w 'test/**/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^16.4.0",
+    "promise-request-retry": "^1.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "verror": "^1.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "should": "^13.2.3",
+    "sinon": "^9.2.1"
+  }
+}

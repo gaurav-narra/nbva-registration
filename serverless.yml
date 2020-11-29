@@ -1,0 +1,18 @@
+service: nbva-registration
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: ap-southeast-2
+
+package:
+ exclude:
+   - test/*
+   - .mocharc.js
+
+functions:
+  nbvaRegistrationHandler:
+    handler: src/handler.run
+    events:
+      - schedule: rate(1 minute)
